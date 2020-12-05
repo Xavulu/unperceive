@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["lain || Xavier Fernandez <xavier.fernandez92@myhunter.cuny.edu>"]
 edition = "2018"
 license = "MIT" 
+repository = "https://github.com/Xavulu/unperceive"
 description = "something maybe but not today :)"
 readme = "README.md"
 
