@@ -19,9 +19,14 @@ tracing = "0.1.22"
 color-eyre = "0.5" 
 tensorflow = "0.16.0" 
 image = "0.21.0"
-imageproc = "0.18.0"
+imageproc = "0.18.0" 
+colored = "2.0.0" 
 
 [[bin]]
 name = "unperceive"
 test = false 
-bench = false
+bench = false 
+
+[profile.release]
+opt-level = 'z'
+lto = true  
